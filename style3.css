@@ -1,0 +1,78 @@
+/* 
+#box1{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+#box2{
+  font-size: 4em;/*this is relative to parent elemnent 1 em = parent element text size   */
+ /* width: 30%;
+ width: 4em;/*Now the width become 4em = 4 * 4em of font size  i.e 4*4*10px = 80px*/
+ /*height: 300px;
+ background-color: red;
+ display: inline-block;
+}  */ 
+
+
+/* div{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border: 2px solid black ;
+  display: inline-block;
+} */
+/* #box1{ */
+  /* position: static; */
+  /* left: 40px;
+  right: 30px;
+  top: 40px;
+  bottom: 40px; */
+  /* This all will not work with static position */
+/* } */
+/* #box2{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index:;
+}
+#box3{
+  position: absolute;
+  top: 180px;
+  left:120px
+}
+#box4{
+  position: fixed;
+  bottom: 5px;
+} */
+
+#box1{  height: 300px;
+  width: 400px;
+  background-color: blue;
+  background-image: url(thar.jpg);
+  background-size: cover;
+  border: 2px solid black ;
+  display: inline-block;}
+#box2{  height: 500px;
+  width: 400px;
+  background-color: rgb(181, 27, 109);
+  border: 2px solid black ;
+  display: inline-block;
+background-image: url(bullet.jpg);
+background-size: cover;
+}
+#box3{  height: 500px;
+  width: 500px;
+  background-color: rgb(135, 205, 15);
+  border: 2px solid black ;
+  display: inline-block;
+background-image: url(car.jpg);
+background-size: cover;}
+#box4{  height: 400px;
+  width: 600px;
+  background-color: rgb(163, 19, 14);
+  border: 2px solid black ;
+  display: inline-block;
+background-image: url(bus.jpg);
+background-size: cover;}

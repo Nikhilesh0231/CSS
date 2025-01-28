@@ -1,0 +1,10 @@
+.box1{
+  width: 500px;
+  height: 400px;
+  background-image: url(bus.jpg);
+  background-size:cover;
+  color: white;
+  position:fixed ;
+  right: 0;
+  top: 0;
+}

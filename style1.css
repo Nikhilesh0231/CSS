@@ -1,0 +1,38 @@
+#p1{
+  /* text-align: center; */
+  /* text-align: left; */
+  text-align: right;
+  text-decoration:red underline;
+  font-weight: 500;
+}
+#p2{
+  font-family:arial;
+}
+h1{
+  text-align: right;
+  text-decoration: yellow line-through;
+  text-decoration-style: dashed;
+
+}
+a{
+  text-decoration: none;
+}
+#id1{
+  font-size: 10px;
+}
+#id2{
+  font-size: 15px;
+}
+#id3{
+  font-size: 20px;
+}
+.para{
+  line-height: 30px;
+  line-height: 10px;
+  line-height: 20px;
+  line-height: normal;
+  background-color: red;
+  text-transform: capitalize;/*Capitalize each word in the para  */
+  text-transform: lowercase;
+  text-transform: uppercase;
+}

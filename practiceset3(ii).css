@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: rgb(31, 30, 30);
+}
+.navbar{
+  /* position: fixed; */
+  background-color: #0f1111;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 230px;
+  align-items: center;
+}
+.title{
+  font-size: 30px;
+  color: #f08804;
+  text-decoration: none;
+  background: none;
+  margin-left: 20px;
+}
+.options{
+  font-size: 20px;
+  text-decoration: none;
+  background: none;
+  color: white;
+}
+.input{
+  background-color: white;
+  padding: 6px;
+  width: 200px;
+  height: 19px;
+  border: none;
+}
+.btn{
+  background-color: #f08804;
+  padding: 8px;
+  border: none;
+  color: white;
+}
+.divider{
+  width: 100%;
+  height: 2px;
+  background-color: yellow;
+  box-shadow: 5px 5px 10px gray;
+}

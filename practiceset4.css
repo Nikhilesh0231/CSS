@@ -1,0 +1,77 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  background: rgb(31, 30, 30);
+}
+.navbar{
+  /* position: fixed; */
+  background-color: #0f1111;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 230px;
+  align-items: center;
+}
+.title{
+  font-size: 30px;
+  color: #f08804;
+  text-decoration: none;
+  background: none;
+  margin-left: 20px;
+}
+.options{
+  font-size: 20px;
+  text-decoration: none;
+  background: none;
+  color: white;
+}
+.input{
+  background-color: white;
+  padding: 6px;
+  width: 200px;
+  height: 19px;
+  border: none;
+}
+.btn{
+  background-color: #f08804;
+  padding: 8px;
+  border: none;
+  color: white;
+}
+.divider{
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+  box-shadow: 5px 5px 10px gray;
+}
+.first{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid #f08804;
+  background-color: rgba(255, 255, 0, 0.5);
+}
+.second{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 2px solid #f08804;
+  background-color: rgba(255, 0, 255, 0.5);
+
+}
+.third{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 255, 255, 0.5);
+  display: inline-block;
+  border: 2px solid #f08804;
+}
+.footer{
+  color: #f08804;
+  font-size: xx-large;
+  text-align: center;
+}
+.content-area{
+  height: 85vh;
+}
